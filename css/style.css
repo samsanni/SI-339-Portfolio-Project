@@ -1,21 +1,29 @@
 html{
     scroll-behavior: smooth;
+    background-color: #124559;
+    background-repeat: no-repeat;
+    background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/johnoliver2.jpg);
+    background-size: 100vw;
+    background-position: center  6vw;
 }
 
 body {
-  background-image: linear-gradient(to right, red , yellow);
+g
   margin: 0;
-  margin-left: 5%;
-  margin-top: 5%;
   padding: 0;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #2d3436;
-  text-align: center;
-  animation: mymove 1s;
+  font-family: 'Roboto Slab', serif;
+  font-size:1.8vw;
+  color: #D3E6D9;
+
 }
 
-p {
-  font-style: italic;
+header{
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+
 }
 
 .nav_links {
@@ -24,6 +32,19 @@ p {
   align-items: center;
   flex-direction: column;
   justify-content: center;
+
+}
+
+p {
+  font-style: italic;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 0.4vw;
+}
+
+a:visited{
+
+  color: #98FB98;
 
 }
 
